@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj": {}
   },
   "projects": {
-    "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
         "projectName": "OrderManagement.Core",
-        "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj",
         "projectName": "OrderManagement.Repository",
-        "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj": {
-                "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj"
+              "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj"
               }
             }
           }
@@ -140,14 +140,14 @@
         }
       }
     },
-    "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj",
         "projectName": "OrderManagement.Service",
-        "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Service\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,11 +165,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj": {
-                "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj"
+              "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj"
               },
-              "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj": {
-                "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj"
+              "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj"
               }
             }
           }
@@ -209,14 +209,14 @@
         }
       }
     },
-    "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj",
         "projectName": "OrderManagement.Api",
-        "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -234,11 +234,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj": {
-                "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj"
+              "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Repository\\OrderManagement.Repository.csproj"
               },
-              "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj": {
-                "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj"
+              "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj": {
+                "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Service\\OrderManagement.Service.csproj"
               }
             }
           }

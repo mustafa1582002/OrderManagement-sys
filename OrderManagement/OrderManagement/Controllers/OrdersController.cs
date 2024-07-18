@@ -69,15 +69,15 @@ namespace OrderManagement.Api.Controllers
 
 
 
-        //[Authorize(Roles = "Admin")]
-        //[HttpGet("GetAllOrders")]
-        //[ProducesResponseType(typeof(IReadOnlyList<OrderToReturnDto>), 200)]
-        //public async Task<ActionResult<IReadOnlyList<OrderToReturnDto>>> GetAllOrders()
-        //{
-        //    var orders = await _orderService.GetAllOrdersAsync();
-        //    var mappedOrder = _mapper.Map<IReadOnlyList<OrderToReturnDto>>(orders);
-        //    return Ok(mappedOrder);
-        //}
+        [Authorize(Roles = "Admin")]
+        [HttpGet("GetAllOrders")]
+        [ProducesResponseType(typeof(IReadOnlyList<OrderToReturnDto>), 200)]
+        public async Task<ActionResult<IReadOnlyList<OrderToReturnDto>>> GetAllOrders()
+        {
+            var orders = await _orderService.GetAllOrdersAsync();
+            var mappedOrder = _mapper.Map<IReadOnlyList<OrderToReturnDto>>(orders);
+            return Ok(mappedOrder);
+        }
 
 
         [Authorize]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oeo7L/mATjnQ7DJ4kYQ9r0IZOV0C2gAQIfVirCFXWn18rhHfCSoNwu7MJlcOpSKLeUoy5XXxPnKzffoMGd/wsw==",
+  "dgSpecHash": "Hu62N9iRplUY4RrfbT2VY3eB+auUd/ndYKpzUGTO/xH7yh+Sos7oK1+XwHFplV6Go3ARS+NU/nprl8i2Pt0hgQ==",
   "success": true,
-  "projectFilePath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.31\\microsoft.aspnetcore.cryptography.internal.6.0.31.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.31\\microsoft.aspnetcore.cryptography.keyderivation.6.0.31.nupkg.sha512",

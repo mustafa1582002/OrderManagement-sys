@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RIt8XXa9/PbpqW13Nz0IHX8el/mrwX0B8fJy3ul/AmVNVLXSmeBV0Xq5Sj70ZNL8ZVN4rpwxaVSTzVCV0Gisog==",
+  "dgSpecHash": "BuOQF/Xsyi1xFmyM4nZu3urvJYzdvzz3iY+nAblfZomJG6+sa1/kFNIWQ4BzxgjFFtUjb0DeJAG5ZzdD+hlXYw==",
   "success": true,
-  "projectFilePath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj",
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement\\OrderManagement.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

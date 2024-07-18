@@ -1276,11 +1276,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
       "projectName": "OrderManagement.Core",
-      "projectPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
+      "projectPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\OrderManagement.Core.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\courses\\Route\\Projects\\OrderManagement\\OrderManagement.Core\\obj\\",
+      "outputPath": "C:\\Users\\user\\Source\\Repos\\OrderManagement-sys\\OrderManagement\\OrderManagement.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
