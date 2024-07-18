@@ -29,6 +29,28 @@ namespace OrderManagement.Service
             _paymentService = paymentService;
             _emailService = emailService;
         }
+
+        public Task AssigningOrderIdToOrderItems(int OrderId, string CustomerId)
+        {
+
+            //Inovice invoice = new Inovice(orderToSave.Id, orderToSave, orderToSave.TotalAmount);
+            //_unitOfWork.Repository<Inovice>().AddAsync(invoice);
+
+
+            /////Assigning each orderitem to orderId
+            //var Spec = new OrderSpecification(CustomerId, true);
+            //var assigningOrder = await _unitOfWork.Repository<Order>().GetEntityWithSpecificationAsync(Spec);
+            //if (orderToSave.OrderItems?.Count > 0)
+            //{
+            //    assigningOrder.Id = orderToSave.Id;
+            //    foreach (var item in OrderItems)
+            //        item.OrderId = orderToSave.Id;
+            //    assigningOrder.OrderItems = OrderItems;
+            //}
+            //_unitOfWork.Repository<Order>().Update(assigningOrder);
+            throw new NotImplementedException();
+        }
+
         public async Task<Order?> CreateAsync(string CustomerId, OrderToSaveDto order)
         {
             var OrderItems = new List<OrderItem>();
@@ -69,24 +91,8 @@ namespace OrderManagement.Service
 
             await _unitOfWork.Repository<Order>().AddAsync(orderToSave);
             //save here to enable take orderid and assigning it to orderitems
+
             var Result = await _unitOfWork.CompleteAsync();
-
-            Inovice invoice = new Inovice(orderToSave.Id, orderToSave, orderToSave.TotalAmount);
-            _unitOfWork.Repository<Inovice>().AddAsync(invoice);
-
-
-            ///Assigning each orderitem to orderId
-            var Spec = new OrderSpecification(CustomerId, true);
-            var assigningOrder = await _unitOfWork.Repository<Order>().GetEntityWithSpecificationAsync(Spec);
-            if (orderToSave.OrderItems?.Count > 0)
-            {
-                 assigningOrder.Id= orderToSave.Id ;
-                foreach (var item in OrderItems)
-                    item.OrderId = orderToSave.Id;
-                assigningOrder.OrderItems = OrderItems;
-            }
-            _unitOfWork.Repository<Order>().Update(assigningOrder);
-            Result = await _unitOfWork.CompleteAsync();
             if (Result <= 0)
                 return null;
 

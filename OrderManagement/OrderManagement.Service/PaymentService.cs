@@ -44,7 +44,7 @@ namespace OrderManagement.Service
                 {
                     Amount = (long)(SubTotal * 100),
                     Currency = "usd",
-                    PaymentMethodTypes = new List<string>() { "card" }
+                    PaymentMethodTypes = new List<string>() { "card","ideal" }
                 };
                 paymentIntent = await Service.CreateAsync(Options);
                 order.PaymentIntentId = paymentIntent.Id;

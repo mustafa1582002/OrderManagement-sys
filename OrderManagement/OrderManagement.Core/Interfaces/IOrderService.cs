@@ -9,5 +9,6 @@ namespace OrderManagement.Core.Interfaces
         Task<IReadOnlyList<Order>> GetOrders(string CustomerId);
         Task<IReadOnlyList<Order>> GetAllOrdersAsync();
         Task<bool> UpdateOrderStatus(int orderId, OrderStatus orderPaymentStatus);
+        Task AssigningOrderIdToOrderItems(int OrderId, string CustomerId);
     }
 }
